@@ -1,12 +1,12 @@
 name: Report Crash
-description: "Report a bug that abruptly end a game session or prevents the start of the game."
+description: "Report a bug that abruptly ends a game session or prevents the start of the game."
 labels:
 - "Type: Crash"
 - "Status: Triage"
 body:
 - type: markdown
   attributes:
-    value: 'Examples of this category include: crashing to desktop, the game window suddenly goes away while playing normally, uncommanded computer shutdown. ~~Please blame your local power grid if your neighbor''s computer also shut down due to power outage.~~
+    value: 'Examples of this category include: crashing to desktop, the game window suddenly going away while playing normally, uncommanded computer shutdown. ~~Please blame your local power grid if your neighbor''s computer also shut down due to power outage.~~
 
     Please note if you merely want a change, e.g. think something is too OP, you should use the Suggest a Change template instead.'
 - type: input
@@ -68,7 +68,7 @@ body:
     options:
       - label: "I have searched this issue tracker and there is nothing similar already. Posting on a closed issue saying the crash still exists will prompt us to investigate and reopen it once we confirm your report."
         required: true
-      - label: "I can reproduce this crash consistently by follow the exact steps I described above."
+      - label: "I can reproduce this crash consistently by following the exact steps I described above."
         required: false
-      - label: "I have asked other people and they confirm they also crash by follow the exact steps I described above."
+      - label: "I have asked other people and they confirm they also crash by following the exact steps I described above."
         required: false
