@@ -35,7 +35,7 @@ body:
   id: thermos
   attributes:
     label: Type of Server
-    description: The brand of your server.
+    description: The brand of your server. Please note your server brand being listed here does not mean it is supported.
     options:
     - Single Player
     - Multiplayer LAN
