@@ -39,6 +39,7 @@ body:
     options:
     - Single Player
     - Single Player Open to LAN
+    - Multiplayer LAN
     - Vanilla Forge
     - Crucible
     - Thermos
