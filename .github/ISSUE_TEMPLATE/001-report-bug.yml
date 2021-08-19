@@ -73,7 +73,7 @@ body:
     label: Final Checklist
     description: Please mark them so we can better handle this report
     options:
-      - label: "I have searched this issue tracker and there is nothing similar already. Posting on a closed issue saying the crash still exists will prompt us to investigate and reopen it once we confirm your report."
+      - label: "I have searched this issue tracker and there is nothing similar already. Posting on a closed issue saying the bug still exists will prompt us to investigate and reopen it once we confirm your report."
         required: true
       - label: "I can reproduce this problem consistently by follow the exact steps I described above, or this does not need reproducing, e.g. recipe loophole."
         required: false
