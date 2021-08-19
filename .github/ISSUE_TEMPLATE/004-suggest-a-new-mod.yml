@@ -69,7 +69,7 @@ body:
         required: true
       - label: "I understand this change request may not attract enough attention and thus not be implemented."
         required: true
-      - label: "I understand this change request may be rejected due to other community members think it's inappropriate."
+      - label: "I understand this change request may be rejected due to other community members thinking it's inappropriate."
         required: true
       - label: "I believe this feature would make the pack better."
         required: true
