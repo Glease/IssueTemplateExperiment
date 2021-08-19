@@ -6,9 +6,9 @@ labels:
 body:
 - type: markdown
   attributes:
-    value: >
-    Examples of this category includes: The One Ring too OP, remove all small pile of dusts.
-    Please note if you found something game breaking, e.g. a dupe exploit, something void your items, or you can't do something that you think you can be doing, you should use the Report Bug template instead."
+    value: 'Examples of this category includes: The One Ring too OP, remove all small pile of dusts.
+    
+      Please note if you found something game breaking, e.g. a dupe exploit, something void your items, or you can't do something that you think you can be doing, you should use the Report Bug template instead.'
 - type: input
   id: discord
   attributes:

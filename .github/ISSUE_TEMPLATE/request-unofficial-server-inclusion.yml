@@ -1,6 +1,5 @@
 name: Request Unofficial Server Inclusion
 description: Request to include your server in the server.dat that ship with the pack
-labels: ''
 body:
 - type: input
   id: ip
