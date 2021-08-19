@@ -7,7 +7,7 @@ body:
   attributes:
     value: 'Often developers tell you to create a ticket as reminder so they don''t keep forgetting things.
 
-    Choose this one ONLY when instructed to do so.
+    Choose this one ONLY when instructed to do so.'
 - type: input
   id: discord
   attributes:
@@ -34,8 +34,8 @@ body:
   id: dev
   attributes:
     label: Responding developer
-    description: Who responded to your request
-    placeholder: "Example: glease."
+    description: Who responded to your request? Please mention that developer using the @ symbol.
+    placeholder: "Example: @Glease."
   validations:
     required: true
 - type: textarea
@@ -58,7 +58,7 @@ body:
   id: final
   attributes:
     label: Final checklist
-    description: Please mark them so we know you are serious with your suggestion
+    description: Please mark them so we know you are aware of some common misconception.
     options:
       - label: "The developer in question has instructed me to create such an issue."
         required: true
