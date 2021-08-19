@@ -4,6 +4,11 @@ labels:
 - "Type: suggestion"
 - "Status: Triage"
 body:
+- type: markdown
+  attributes:
+    value: >
+    Examples of this category includes: add void miner, add naquadah processing line.
+    Please note if you want to change an existing feature, e.g. think something is too OP, you should use the Suggest a Change template instead.
 - type: input
   id: discord
   attributes:

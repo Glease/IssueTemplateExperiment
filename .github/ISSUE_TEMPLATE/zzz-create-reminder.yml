@@ -1,8 +1,13 @@
 name: Create a reminder
-description: Often developers tell you to create a ticket as reminder. Choose this one ONLY when instructed to do so.
+description: Create a reminder for developer(s)
 labels:
 - "Status: Triage"
 body:
+- type: markdown
+  attributes:
+    value: >
+    Often developers tell you to create a ticket as reminder so they don't keep forgetting things.
+    Choose this one ONLY when instructed to do so.
 - type: input
   id: discord
   attributes:
@@ -59,7 +64,7 @@ body:
         required: true
       - label: "I believe the developer is not causally joking around."
         required: true
-      - label: "I understand this reminder might take a long time to implement no matter what the developer has promised."
+      - label: "I understand this reminder might take a long time to implement no matter what the developer has promised. (e.g. unforeseeable life difficulty, computer breaks, hard drive corruption)"
         required: true
       - label: "I understand other people (developers or not) might not like this feature and would oppose its integration."
         required: true
